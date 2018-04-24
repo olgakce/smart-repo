@@ -1,0 +1,646 @@
+* {
+    box-sizing: border-box;
+    font-family: Sintony;
+}
+body {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#banner {
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona4/pictures/mainbaner.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 1000px;   
+    margin: 0 auto;
+    position: relative;
+}
+#banner h1 {
+    font-size: 6em;
+    font-family: Sintony;
+    font-weight: 200;
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 40%;
+}
+.read {
+    text-align: center;
+    font-size: 1.3em;
+    font-family: Sintony;
+    margin-top: 40%;
+    position: absolute;
+    padding: 10px 20px 10px 20px;
+    background: rgba(255, 255, 255, 0.89);
+    color: rgb(92, 92, 92);
+    text-transform: uppercase;
+    transition: all .3s ease-out;
+}
+.read a:link {
+    text-decoration: none;
+}
+.read a:visited {
+    color: rgb(92, 92, 92);
+}
+
+.read:hover {
+    font-size: 1.2em;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    min-width: 100%;
+    max-width: 100%; 
+    position: fixed; 
+    padding-left: -20px;
+    z-index: 2;
+    background-color: rgba(0, 81, 81, 0.9);
+    text-align: center;
+}
+nav li {
+    align-self: center;
+    display: inline-block;
+    padding: 10px;
+    font-size: 1.2em;
+    list-style: none;
+    color: #FFF;
+    font-family: Sintony;
+    text-transform: uppercase;   
+}
+nav a:link {
+    color: #FFF;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #FFF;
+}
+nav a:hover {
+    color: rgb(131, 173, 168);
+    transition: all .2s ease-in-out;
+    
+}
+#about {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(252, 252, 252);
+}
+#about h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    color: rgb(92, 92, 92);
+}
+.reasons {
+    text-align: center;
+    color: rgb(92, 92, 92);
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10%;
+    
+}
+.window {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 6px 0px rgba(187, 187, 187, 0.712);
+    border-top: 6px solid rgb(73, 156, 138);
+    width: 25%;
+    height: 500px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;  
+}
+.window img {
+    width: 60%;
+    height: auto;
+    margin-top: 5%;
+    position: absolute;
+    
+}
+.window h5 {
+    font-size: 1.3em;
+    font-weight: 200;
+    color: rgb(92, 92, 92);
+    position: absolute;
+    align-self: center;
+    background-color: rgb(247, 247, 247);
+    padding: 32px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    
+}
+.description {
+    text-align: center;
+    color: rgb(92, 92, 92);
+    font-size: 1.2em;
+    align-self: flex-end;
+    padding: 10px;
+}
+.piramide{
+    text-align: center;
+    font-size: 1em;
+    color: rgb(92, 92, 92);
+}
+span {
+    color: rgb(44, 44, 44);
+    font-weight: bolder;
+}
+.more {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 550px;
+    width: 100%;
+}
+
+.more p {
+    width: 30%;
+    color: rgb(92, 92, 92);
+    text-align: justify;
+    font-size: 1em;
+    line-height: 24px;
+    margin-top: -0.5px;
+    margin-left: -75px;
+    text-indent: 30px;
+}
+.more img {
+    width: 60%;
+    height: auto;
+    margin-left: 5px;
+}
+.more img:hover {
+    filter: brightness(90%);
+}
+#team {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color: rgb(252, 252, 252);
+}
+#team h2 {
+    text-align: center;
+    color: rgb(92, 92, 92);
+    
+}
+.teamAbout {
+    margin: 10%;
+    line-height: 2em;
+    width: 80%;
+    text-align: center;
+    color: rgb(92, 92, 92);
+}
+.personSection {
+	margin-top: 10%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.person {
+   
+    padding-left: 125px;
+    padding-bottom: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+}
+.person h3 {
+    text-transform: uppercase;
+}
+.person h3,
+.person h4 {
+	text-align: center;
+    line-height: 1.4;
+    align-items: space-around;
+    color: rgb(92, 92, 92);
+}
+.person h4 {
+    font-size:1.25em;
+    margin-top: 5px;
+    color: #50A684;
+}
+
+.person img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    transition: all .2s ease-in-out;
+    filter: saturate(0%);
+}
+.person img:hover {
+    filter: saturate(100%);
+    transform: scale(1.06);
+}
+#calendar {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.bannerCal {
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona4/pictures/camping2.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: 650px;
+    display: block;
+}
+.bannerCal p{
+    font-size:3em;
+    font-family: "Nothing You Could Do";
+    color: rgb(231, 231, 231);
+    text-align: center;
+    padding-top: 220px;
+    margin: 0;
+}
+
+#dscrCal {
+    height: auto;
+    background-color: rgb(252, 252, 252);
+}
+#dscrCal h2 {
+    color: rgb(92, 92, 92);
+    text-align: center;
+    padding-top: 10%;
+}
+.cal {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.calBox {
+    width: 500px;
+    height: 400px;
+    background-color: rgba(80, 166, 132, 0.377);
+    border-radius: 10%;
+    box-shadow: 0px 10px 36px 0px rgba(196, 196, 196, 0.575);
+    text-align: center;
+    margin-top: 10%;
+    
+}
+.calBox h3 {
+    font-size: 2em;
+    color: rgb(241, 241, 241);
+    margin-top: 70px;
+}
+.calBox p {
+    font-size: 1.3em;
+    color: rgb(88, 88, 88);
+    line-height: 100px;
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 60px;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.little {
+    font-size: 0.7em;
+    font-style: italic;
+    color: rgb(129, 129, 129);
+}
+.calBox img {
+    width: 10%;
+    height: auto;
+    opacity: 0.5;
+}
+
+.signUp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    padding-top: 10%;
+    background-color: rgb(252, 252, 252);
+}
+.box {
+    margin-top: 5%;
+    width: 650px;
+    height: 650px;
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona4/pictures/funky-lines.png");
+    box-shadow: 0px 10px 16px 0px rgba(196, 196, 196, 0.712);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.box h3 {
+    text-align: center;
+    font-size: 4.5em;
+    color: rgb(63, 63, 63);
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.box:hover {
+    filter: brightness(90%);
+    transition: all .5s ease-in;
+}
+#signUpForm {
+    text-align: center;
+    margin: 0 auto;
+}
+#signUpForm label {
+    font-size: 1em;
+    color: rgb(85, 85, 85);
+    
+}
+#signUpForm input {
+    width: 500px;
+    height: 40px;
+    margin-top: 60px;
+    border: none;
+    font-size: 1.3em;
+    color: rgb(53, 107, 85);
+}
+
+#signUpForm input#submit {
+width: 200px;
+font-size: 1.25em;
+background-color: #50A684;
+color: #FFF;
+text-transform: uppercase;
+}
+#signUpForm input#submit:hover {
+    opacity: 0.8;
+    transition: all .2s ease-out;
+}
+#contact {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: -15px;
+    padding-top: 60px;
+    background: rgb(252, 252, 252);
+}
+#contactTitle {
+    text-align: center;
+    color: rgb(92, 92, 92);
+    padding: 200px;
+}
+#contactTitle p {
+    font-size: 1.2em;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+.contactDscr {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #94B7BB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.adress a:link,
+.adress a:visited {
+    padding-left: 10px;
+    color: rgb(44, 44, 44); 
+    text-decoration: none;
+}
+.adress a:hover {
+    color: rgba(241, 241, 241, 0.671);
+    transition: all .3s ease;
+}
+.adress img {
+    width: 20%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.phone a:link,
+.phone a:visited{
+    padding: 20px 30px;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+     
+}
+.phone a:hover {
+    color: rgba(241, 241, 241, 0.671);
+    transition: all .3s ease;
+}
+.phone img {
+    opacity: 0.8;
+    width: 25%;
+    height: auto;
+}
+.mail a:link,
+.mail a:visited { 
+    padding-left: 20px; 
+    color: rgb(44, 44, 44);
+    text-decoration: none;  
+}
+.mail a:hover {
+    color: rgba(241, 241, 241, 0.671);
+    transition: all .3s ease;
+}
+.mail img {
+    width: 20%;
+    height: auto;
+    opacity: 0.8;
+}
+.baner3 {
+    background-image: url("/Users/olgapodsiadlo/Desktop/strona4/pictures/forestbaner.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 400px;
+}
+#map {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+}
+#map iframe {
+    width: 100%;
+    height: 400px;
+}
+footer {
+    background: rgb(252, 252, 252);
+    text-align: center;
+    padding: 30px;
+    margin-top: -10px;
+}
+footer h3 {
+    color: rgb(44, 44, 44);
+    font-size: 1em;
+    font-style: italic;
+}
+/*Website responsive on mobile phones*/
+
+@media only screen and (max-width: 480px) {
+    * {
+      margin: 0 auto;
+        
+    }
+    #banner {
+        height: 700px;
+    }
+    #banner h1 {
+        font-size: 3em;
+        text-align: center;
+    }
+    .read {
+        margin-top: 500px;
+        font-size: 0.9em;
+    }
+    nav {
+        margin: 0;
+        padding: 0;
+    }
+    nav li {
+        font-size: 0.7em;
+        float: center;
+        margin: 0 auto;
+        
+    }
+    .about-us {
+        display: block;
+        height: auto;
+        margin-top: 100px;
+    }
+    .window {
+        width: 200px;
+        height: auto;        
+    }
+    .window img {
+        position: absolute;
+        width: 100%;
+        height: 140px;
+    }
+    .window h5 {
+        font-size: 0.9em;
+        margin-top: 30px;
+        width: 100%;
+        height: 100px;
+    }
+    .piramide{
+        font-size: 0.6em;
+        margin-top: 300px;
+        margin-bottom: 20px;
+    }
+    .more {
+        display: block;
+        height: auto;
+    }
+    .more p {
+        width: 80%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        font-size: 0.8em;
+        text-indent: 0px;
+        
+    }
+    .more img {
+        display: none;
+    }
+    .teamAbout {
+        font-size: 0.8em;
+    }
+    .person {
+        padding: 20px;
+    }
+    .person img {
+        width: 100px;
+        height: 100px;
+    }
+    .person h3,
+    .person h4 {
+        font-size: 0.9em;
+    }
+    .bannerCal {
+        height: 400px;
+    }
+    .bannerCal p {
+        font-size: 1em;
+        padding-top: 150px;
+    }
+    .cal {
+        display: block;
+    }
+    .calBox {
+        width: 70%;
+        height: auto;
+    }
+    .calBox h3 {
+        font-size: 1.1em;
+        padding: 20px;
+    }
+    .calBox p {
+        font-size: 1em;
+    }
+    .box {
+        width: 350px;
+        height: 350px;
+        padding: 70px;
+    }
+    .box h3 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    #signUpForm {
+        text-align: center;
+        margin: 0 auto;
+    }
+    #signUpForm label {
+        font-size: 0.7em;
+        padding-top: 30px;
+        
+    }
+    #signUpForm input {
+        width: 200px;
+        height: 20px;
+        margin-top: 20px;
+        font-size:0.8em; 
+    }
+    #signUpForm input#submit {
+    width: 100px;
+    height: auto;
+    font-size: 1em;
+    }
+   
+    #contactTitle {
+       text-align: center;
+      
+    }
+    #contactTitle p {
+        font-size: 1.1em;
+        text-align: center;
+        text-decoration: underline;
+        width: 100%;
+        padding: 100px;
+    }
+}
