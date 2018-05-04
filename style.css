@@ -45,15 +45,16 @@ header {
     position: absolute;
     padding: 10px 20px 10px 20px;
     background: rgba(255, 255, 255, 0.89);
-    color: rgb(92, 92, 92);
+    color: #53565A;
     text-transform: uppercase;
     transition: all .3s ease-out;
 }
 .read a:link {
     text-decoration: none;
+    color: #53565A;
 }
 .read a:visited {
-    color: rgb(92, 92, 92);
+    color: #53565A;
 }
 
 .read:hover {
