@@ -17,7 +17,7 @@ header {
     margin: 0 auto;
 }
 #banner {
-    background-image: url("/Users/olgapodsiadlo/Desktop/strona4/pictures/mainbaner.jpeg");
+    background-image: url("pictures/mainbaner.jpeg");
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -261,7 +261,7 @@ span {
     height: auto;
 }
 .bannerCal {
-    background-image: url("/Users/olgapodsiadlo/Desktop/strona4/pictures/camping2.jpeg");
+    background-image: url("pictures/camping2.jpeg");
     background-size: cover;
     background-attachment: fixed;
     background-position: top;
@@ -342,7 +342,7 @@ span {
     margin-top: 5%;
     width: 650px;
     height: 650px;
-    background-image: url("/Users/olgapodsiadlo/Desktop/strona4/pictures/funky-lines.png");
+    background-image: url("pictures/funky-lines.png");
     box-shadow: 0px 10px 16px 0px rgba(196, 196, 196, 0.712);
     border-radius: 50%;
     display: flex;
@@ -471,7 +471,7 @@ text-transform: uppercase;
     opacity: 0.8;
 }
 .baner3 {
-    background-image: url("/Users/olgapodsiadlo/Desktop/strona4/pictures/forestbaner.jpg");
+    background-image: url("pictures/forestbaner.jpg");
     background-size: cover;
     background-position: top;
     width: 100%;
